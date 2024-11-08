@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduction</h1>
+    <img src="linefollowerimg.webp">
+    <h2>Group menber</h2>
+    <ol>
+        <li>Bihari Mali</li>
+        <li>Suyash Sahu (Team Leader)</li>
+        <li>Shashwat Khandelwal</li>
+        <li>Kapil Verma</li>
+    </ol>
+    <h1>Line Follower Robot </h1>
+    <h2>Introduction</h2><p>A line follower robot is an autonomous robot designed to follow a specific path, usually a black line on a white surface.
+        <br>
+        It uses sensors, typically infrared (IR) sensors, to detect the line and navigate along it.
+        <br>
+        The sensors send data to a microcontroller, such as an Arduino, which processes the information and controls the motors to keep the robot on track.</p>
+    <h1>Component Required</h1>
+    <ul>
+        <h2>Hardware</h2>
+        <li>IR sensor 2p</li>
+        <li>Aurdino UNO 1p</li>
+        <li>switch(5v) 1p</li>
+        <li>Motor drivwer (L298N) 1p</li>
+        <li>Battery(12v) 2p</li>
+        <li>motor() 2p</li>
+    </ul>
+    <h1>Software</h1>
+    <a href="linefollower.html">Linefollower Code</a>
+    <h1>Wokrking Process</h1>
+    <p><ol>
+        <li><h3>Line Detection:</h3> IR sensors detect the line by emitting infrared light and measuring the reflected light. When the light hits the line, it gets absorbed, and when it hits the surface, it gets reflected back to the sensors1.</li>
+        <br>
+        <li><h3>Signal Processing:</h3> The microcontroller receives signals from the IR sensors. It determines the robot's position relative to the line1.</li>
+        <br>
+        <li><h3>Movement Control:</h3> Based on the sensor data, the microcontroller sends commands to the motor driver to adjust the speed and direction of the motors.
+        </li>      
+          <br>
+        <li><h3>Correction:</h3> If the robot deviates from the line, the sensors detect the deviation, and the microcontroller adjusts the motor speeds to bring the robot back on track.</li>
+    </ol>
+    </p>
+    <h1>Future Scope</h1>
+    <p>
+        <ol>
+        <li><h3>Multiple Line Tracking:</h3> Enhancing robots to follow multiple lines simultaneously for complex navigation tasks.</li>
+        <li><h3>Obstacle Detection:</h3> Integrating sensors to detect and avoid obstacles, making the robots more versatile and safe.</li>
+        
+       <li><h3>Wireless Control:</h3> A dding wireless communication modules for remote control and coordination with other robots.</li>
+        
+        <li><h3>Autonomous Navigation:</h3> Improving algorithms for dynamic path planning and real-time decision-making.</li>
+        
+        <li><h3>Object Detection and Recognition:</h3> Incorporating advanced sensors and AI to identify and interact with objects.</p></li>
+    </ol>
+</body>
+</html>
